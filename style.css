@@ -86,8 +86,10 @@ div {
   
   button:hover {
     background-color: rgb(231, 212, 212);
+    
   }
 
   button:active {
     background-color: rgb(235, 204, 204);
+    cursor: grab;
   }
