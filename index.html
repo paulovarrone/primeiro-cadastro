@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro "Formulário"</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>PRIMEIRO CADASTRO</header>
+    <div class="fundo"> 
+            <div class="meio">
+                
+                        <div class="cad">Realize o seu cadastro</div>
+                        <form action="" id="meu-form">
+                              
+                                <input type="text" placeholder="Nome Completo">
+                                
+                                <input type="password" placeholder="Digite uma senha">
+                                <input type="password" placeholder="Digite a senha novamente">
+                               
+                                
+                                <datalist id="Genero">
+                                    <option>Masculino</option>
+                                    <option>Feminino</option>
+                                    <option>Outros</option>
+                                </datalist>
+
+                                <input type="text" list="Genero" placeholder="Genero">
+                                <input type="number" placeholder="Telefone">
+                                
+
+                                <input type="email" placeholder="Digite seu e-mail">
+                                    Digite sua data de nascimento
+                                <input type="date" placeholder="">
+                                
+                                <button class="enviar" type="submit" form="meu-form">Enviar</button>
+                                <button type="reset">Limpar</button>   
+                                         
+                        </form>
+                
+            </div>  
+        </div>   
+</body>
+</html>
