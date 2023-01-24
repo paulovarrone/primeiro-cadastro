@@ -81,4 +81,13 @@ div {
     padding: 10px;
     font-size: 15px;
     margin: 0px 80px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: rgb(231, 212, 212);
+  }
+
+  button:active {
+    background-color: rgb(235, 204, 204);
   }
